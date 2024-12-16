@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-panel {
+    width: 20%;
+    background-color: #2a4d23;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-panel button {
+    background-color: #3c8d2f;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.left-panel button:hover {
+    background-color: #305b2d;
+}
+
+.main-panel {
+    width: 75%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button[type="submit"], button[type="button"] {
+    background-color: #2a4d23;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover, button[type="button"]:hover {
+    background-color: #305b2d;
+}
+
+.file-import {
+    display: flex;
+    align-items: center;
+}
